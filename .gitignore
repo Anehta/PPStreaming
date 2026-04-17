@@ -51,7 +51,6 @@ desktop.ini
 !**/platform_scripts/cmd/setenv/
 **/platform_scripts/bash/*/
 node.zip
-SignallingWebServer/Public/
 SignallingWebServer/certificates
 common/types/*
 
