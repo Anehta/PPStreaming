@@ -150,8 +150,9 @@ export class PixelStreamingApplicationStyle {
         },
         '#controls': {
             position: 'absolute',
-            top: '3%',
+            top: '50%',
             left: '2%',
+            transform: 'translateY(-50%)',
             fontFamily: "'Michroma', sans-serif",
             pointerEvents: 'all',
             display: 'block'

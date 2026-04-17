@@ -404,7 +404,7 @@ export class Config {
                 'Either locked mouse, where the pointer is consumed by the video and locked to it, or hovering mouse, where the mouse is not consumed.',
                 settings && settings.hasOwnProperty(Flags.HoveringMouseMode) ?
                     settings[Flags.HoveringMouseMode] :
-                    false,
+                    true,
                 useUrlParams,
                 (isHoveringMouse: boolean, setting: SettingBase) => {
                     setting.label = `Control Scheme: ${isHoveringMouse ? 'Hovering' : 'Locked'} Mouse`;

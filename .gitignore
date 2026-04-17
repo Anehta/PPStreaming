@@ -1,10 +1,59 @@
-logs/
+# Dependencies
 node_modules/
+
+# Build outputs
+dist/
+build/
+lib/
+es6/
+cjs/
+*.tsbuildinfo
+
+# Test / coverage
+coverage/
+
+# Caches
+.nx/cache
+.nx/workspace-data
+.turbo/
+.cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE / editor
+.vscode
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Project-specific
 **/platform_scripts/cmd/*/
 !**/platform_scripts/cmd/setenv/
 **/platform_scripts/bash/*/
 node.zip
 SignallingWebServer/Public/
 SignallingWebServer/certificates
-.vscode
-coverage/
+common/types/*
+
+# Claude Code
+.claude/
