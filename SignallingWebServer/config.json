@@ -9,10 +9,11 @@
 	"EnableWebserver": true,
 	"MatchmakerAddress": "",
 	"MatchmakerPort": 9999,
-	"PublicIp": "localhost",
+	"PublicIp": "47.116.127.243",
 	"HttpPort": 18080,
 	"HttpsPort": 443,
 	"StreamerPort": 8888,
 	"SFUPort": 8889,
-	"MaxPlayerCount": -1
+	"MaxPlayerCount": -1,
+	"peerConnectionOptions": "{\"iceServers\":[{\"urls\":[\"stun:47.116.127.243:3478\"]},{\"urls\":[\"turn:47.116.127.243:3478\"],\"username\":\"pixelstreamer\",\"credential\":\"changeme_to_strong_pw\"}]}"
 }
